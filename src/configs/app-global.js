@@ -1,6 +1,6 @@
 export const PROJECT_NAME = 'TapHaus Bar';
 export const BASE_URL = 'http://43.205.254.139';
-export const WEBSITE_URL = 'https://taphaus.coderealm.co/';
+export const WEBSITE_URL = 'https://taphausfront.vercel.app/';
 export const api_url = BASE_URL + '/api/v1/';
 export const api_url_admin = BASE_URL + '/api/v1/dashboard/admin/';
 export const api_url_admin_dashboard = BASE_URL + '/api/v1/dashboard/';
