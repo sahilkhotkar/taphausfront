@@ -20,7 +20,7 @@ export const MESSAGING_SENDER_ID = '414450496098';
 export const APP_ID = '1:414450496098:web:aeeb205e6e238a7af0173b';
 export const MEASUREMENT_ID = 'G-EWBEQK78HB';
 
-export const RECAPTCHASITEKEY = '6LcNOsMrAAAAAOnRyU14umBqJtetSdnviQDYnSVx';
+export const RECAPTCHASITEKEY = '6LcNOsMrAAAAAH4p33vNll_C29A2m5Yr04NoGcDW';
 
 export const DEMO_SELLER = 107; // seller_id
 export const DEMO_SHOP = 501; // seller_id
