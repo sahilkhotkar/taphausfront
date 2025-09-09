@@ -1,5 +1,5 @@
 export const PROJECT_NAME = 'TapHaus Bar';
-export const BASE_URL = 'http://43.205.254.139';
+export const BASE_URL = 'https://yellowgreen-worm-925043.hostingersite.com';
 export const WEBSITE_URL = 'https://taphausfront.vercel.app/';
 export const api_url = BASE_URL + '/api/v1/';
 export const api_url_admin = BASE_URL + '/api/v1/dashboard/admin/';
