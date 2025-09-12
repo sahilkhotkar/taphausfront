@@ -7,7 +7,17 @@
     <meta name="description" content="Foodyman admin panel" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="robots" content="noindex" />
-    <script
+    <script>
+      window.initMap = function () {
+        const el = document.getElementById('map');
+        if (!el) return;
+        const map = new google.maps.Map(el, {
+          center: { lat: 19.076, lng: 72.8777 },
+          zoom: 12
+        });
+      };
+    </script>
+    <script async defer
       type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbfnvObzwcs6OLXOmSaG9CtIhwjmBwLTQ&callback=initMap"
     ></script>
